@@ -12,7 +12,7 @@ tar -xzvf lolMiner_v1.88_Lin64.tar.gz
 tar -xzvf rigel-1.17.2-linux.tar.gz
 
 echo "#xelis" >> /root/mine.sh
-echo "/root/rigel-1.17.2-linux/rigel -a xelishash+zil -o [1]stratum+ssl://eu.xel.k1pool.com:9352 -u [1]KrQdDzjnGRbnLQQmYGQv9EUxPPuMzBqfCso -o [2]stratum+tcp://eu.zil.k1pool.com:1111 -u [2]KrQdDzjnGRbnLQQmYGQv9EUxPPuMzBqfCso --zil-countdown -w $1" >> /root/mine.sh
+echo "/root/rigel-1.17.2-linux/rigel -a xelishash+zil -o [1]stratum+ssl://eu.xel.k1pool.com:9352 -u [1]KrQdDzjnGRbnLQQmYGQv9EUxPPuMzBqfCso -o [2]stratum+tcp://eu.zil.k1pool.com:1111 -u [2]KrQdDzjnGRbnLQQmYGQv9EUxPPuMzBqfCso --zil-countdown -w $1 --api-bind 127.0.0.1:5000" >> /root/mine.sh
 
 
 # shellcheck disable=SC2129
